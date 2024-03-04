@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+h1 {
+    color: #FFF;
+font-family: "ITC Avant Garde Gothic Std";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 172px;
+margin-top: 155px;
+}
+.hero {
+    width: auto;
+    height: 514px;
+    flex-shrink: 0;
+    background: url(img/hero.png);
+    background-size: cover;
+}
+.white {
+    color: #FFF;
+font-family: "ITC Avant Garde Gothic Std";
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-left: 174px;
+padding-bottom: 48px;
+}
+
+
+.discoverbutton {
+    color: #FFF;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    padding: 10px 10px 8px 10px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 4px;
+    background: #76d02f;
+    margin-left: 174px;
+}
+
+
+.navlist {
+    color: #FFF;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+display: flex;
+    list-style: none;
+    gap: 32px;
+    padding-top: 24px;
+    align-items: center;
+justify-content: right;
+padding-right: 24px;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bookbutton {
+    color: #FFF;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #2fd0c6;
+}
+
+h2 {
+    color: #000;
+text-align: center;
+font-family: "ITC Avant Garde Gothic Std";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 40px;
+padding-bottom: 24px;
+}
+
+.cardgroup {
+    display: inline-flex;
+    align-items: center;
+    gap: 64px;
+padding-right: 80px;
+padding-left: 80px;
+}
+
+.cardgr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 8px;
+    gap: 16px;
+    border-radius: 8px 8px 0px 0px;
+    background: #FFF;
+    border-bottom: 10px solid #76d02f;
+}
+.cardbl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 8px;
+    gap: 16px;
+    border-radius: 8px 8px 0px 0px;
+    background: #FFF;
+    border-bottom: 10px solid #2fd0c6;
+}
+.cardpp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 8px;
+    gap: 16px;
+    border-radius: 8px 8px 0px 0px;
+    background: #FFF;
+    border-bottom: 10px solid #d02fb6;
+}
+
+h3 {
+    color: #595656;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    padding-bottom: 24px;
+}
+
+p {
+    color: var(--gray, #595656);
+font-family: "ITC Avant Garde Gothic Std";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin: 0;
+}
+
+.rect {
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 20px;
+}
+
+.bestservice {
+    background-image: url(img/service.png);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.squarecard {
+    display: flex;
+    width: 169px;
+    padding: 8px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+}
+
+.numbers {
+    color: #303030;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.cardtext1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.squarecardgroup {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.popular {
+    color: #000;
+/* title */
+font-family: "ITC Avant Garde Gothic Std";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 33.33%;
+padding: 10px;
+border-radius: 8px;
+background: #FFF;
+mix-blend-mode:lighten;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+position: absolute; top: 1290px; left: 400px;
+z-index: 1;
+}
+
+.ourdes {
+    background-image: url(img/map.png);
+    display: flex;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.destcards {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    margin-top: 97px;
+    margin-left: 584px;
+    margin-bottom: 85px;
+}
+
+
+.destination {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 16px;
+    gap: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(121, 121, 121, 0.61);
+    background-color: white;
+    align-items: center;
+}
+
+.cardtitle {
+    color: #303030;
+
+text-align: center;
+/* small title */
+font-family: "ITC Avant Garde Gothic Std";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.small {
+    color: #303030;
+
+    /* body */
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;       
+}
+
+.destext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+
+ul {
+    list-style: none;
+    color: #FFF;
+
+/* small title */
+font-family: "ITC Avant Garde Gothic Std";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.blue {
+    display:flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #2fd0c6;
+}
+
+.gray {
+    display:flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #818181;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    font-weight: 100;
+    justify-content: center;
+}
+
+.bestpkg {
+    background-color: white;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-image: url(img/bubble.png);
+    background-size: contain;
+}
+
+
+.bestcard {
+    display: inline-flex;
+    padding-bottom: 16px;
+    margin-top: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.besttext {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.button {
+    padding: 10px 16px;
+    border-radius: 4px;
+    background: #76d02f;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.bestgroup {
+    display: flex;
+    gap: 56px;
+justify-content: center;
+padding-bottom: 40px;
+}
+
+.stepcard {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 56px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-left: 10px solid #76d02f;
+}
+
+.cardtext {
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 319px;
+    padding: -0px 10px 24px 10px;
+    text-align: center;
+}
+
+.testimonial {
+    background-image: url(img/suitcase.png);
+    background-size: cover;
+    background-repeat: none;
+    margin-bottom: 56px;
+}
+
+.bigquote {
+    margin-left: 85px;
+    margin-top: -24px;
+}
+
+.voicetext {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.voicecard {
+    background-color: #FFF;
+    border-radius: 10px;
+display: flex;
+align-items: flex-start;
+width: 500px;
+padding: 16px 40px 16px 40px;
+margin-bottom: 56px;
+}
+
+.voicegroup {
+    display: flex;
+justify-content: center;
+padding-bottom: 24px;
+    gap: 60px;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding-top: 56px;
+    padding-bottom: 80px;
+}
+
+.footerlogo {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+
+.smallp {
+    color: #FFF;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;  
+}
+
+.listtitle {
+    color: #FFF;
+
+font-family: "ITC Avant Garde Gothic Std";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.footercompany {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+
+.subtext {
+
+    color: #818181;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background-color: #fff;
+    border-radius: 8px 0px 0px 8px;
+    padding: 8px 10px 4px 10px;
+}
+
+.send {
+
+background-color: #818181;
+padding: 4px;
+border-radius: 0px 8px 8px 0px;
+}
+
+.box {
+    display: inline-flex;
+}
+
+.social {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
