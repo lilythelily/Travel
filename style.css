@@ -1,7 +1,118 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  
 
 body {
     background-color: #f6f6f6;
@@ -9,7 +120,7 @@ body {
 
 h1 {
     color: #FFF;
-font-family: "ITC Avant Garde Gothic Std";
+font-family: "Poppins";
 font-size: 48px;
 font-style: normal;
 font-weight: 600;
@@ -26,7 +137,7 @@ margin-top: 155px;
 }
 .white {
     color: #FFF;
-font-family: "ITC Avant Garde Gothic Std";
+font-family: "Poppins";
 font-size: 12px;
 font-style: normal;
 font-weight: 300;
@@ -38,7 +149,7 @@ padding-bottom: 48px;
 
 .discoverbutton {
     color: #FFF;
-    font-family: "ITC Avant Garde Gothic Std";
+    font-family: "Poppins";
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -55,7 +166,7 @@ padding-bottom: 48px;
 
 .navlist {
     color: #FFF;
-    font-family: "ITC Avant Garde Gothic Std";
+    font-family: "Poppins";
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -72,7 +183,7 @@ padding-right: 24px;
 .navlist a {
     text-decoration: none;
     color: #FFF;
-    font-family: "ITC Avant Garde Gothic Std";
+    font-family: "Poppins";
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -81,7 +192,7 @@ padding-right: 24px;
 
 .bookbutton {
     color: #FFF;
-    font-family: "ITC Avant Garde Gothic Std";
+    font-family: "Poppins";
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -98,7 +209,7 @@ padding-right: 24px;
 h2 {
     color: #000;
 text-align: center;
-font-family: "ITC Avant Garde Gothic Std";
+font-family: "Poppins";
 font-size: 32px;
 font-style: normal;
 font-weight: 600;
@@ -148,7 +259,7 @@ padding-left: 80px;
 
 h3 {
     color: #595656;
-    font-family: "ITC Avant Garde Gothic Std";
+    font-family: "Poppins";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -158,7 +269,7 @@ h3 {
 
 p {
     color: var(--gray, #595656);
-font-family: "ITC Avant Garde Gothic Std";
+font-family: "Poppins";
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
@@ -185,7 +296,7 @@ margin: 0;
 
 .squarecard {
     display: flex;
-    width: 169px;
+    width: 200px;
     padding: 8px;
     flex-direction: column;
     align-items: center;
@@ -194,11 +305,12 @@ margin: 0;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .numbers {
     color: #303030;
-    font-family: "ITC Avant Garde Gothic Std";
+    font-family: "Poppins";
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -223,20 +335,22 @@ margin: 0;
 }
 
 .popular {
-    color: #000;
-/* title */
-font-family: "ITC Avant Garde Gothic Std";
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-width: 33.33%;
+display: inline-flex;
 padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
 border-radius: 8px;
-background: #FFF;
-mix-blend-mode:lighten;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-position: absolute; top: 1290px; left: 400px;
+background: #fff;
+opacity: 0.8;
+mix-blend-mode: overlay;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0. 0.25);
+
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 32px;
+margin-bottom: -12px;
 z-index: 1;
 }
 
@@ -249,24 +363,23 @@ z-index: 1;
 }
 
 .destcards {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 64px;
-    margin-top: 97px;
-    margin-left: 584px;
-    margin-bottom: 85px;
+    gap: 24px;
+justify-content: center;
+align-items: center;
+width: 800px;
+padding: 24px 0 24px 0px;
 }
 
 
 .destination {
     display: flex;
-    align-items: flex-start;
     padding-right: 16px;
-    gap: 40px;
+    gap: 24px;
     border-radius: 10px;
-    border: 1px solid rgba(121, 121, 121, 0.61);
     background-color: white;
+    justify-content: center;
     align-items: center;
 }
 
@@ -275,7 +388,7 @@ z-index: 1;
 
 text-align: center;
 /* small title */
-font-family: "ITC Avant Garde Gothic Std";
+font-family: "Poppins";
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -286,7 +399,7 @@ line-height: normal;
     color: #303030;
 
     /* body */
-    font-family: "ITC Avant Garde Gothic Std";
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -295,9 +408,10 @@ line-height: normal;
 
 .destext {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    gap: 56px;
+    gap: 32px;
+    width: 280px;
 }
 
 ul {
@@ -305,10 +419,10 @@ ul {
     color: #FFF;
 
 /* small title */
-font-family: "ITC Avant Garde Gothic Std";
+font-family: "Poppins";
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: 300;
 line-height: normal;
 
 }
@@ -359,10 +473,11 @@ ul {
 
 .bestcard {
     display: inline-flex;
-    padding-bottom: 16px;
-    margin-top: 64px;
+    padding: 16px 0 16px 0;
+    margin-top: 40px;
     flex-direction: column;
     align-items: center;
+    width: 300px;
     gap: 24px;
     border-radius: 10px;
     background: #FFF;
@@ -422,6 +537,7 @@ padding-bottom: 40px;
 .bigquote {
     margin-left: 85px;
     margin-top: -24px;
+    opacity: 0.5;
 }
 
 .voicetext {
@@ -437,6 +553,7 @@ align-items: flex-start;
 width: 500px;
 padding: 16px 40px 16px 40px;
 margin-bottom: 56px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .voicegroup {
@@ -464,7 +581,7 @@ gap: 16px;
 
 .smallp {
     color: #FFF;
-    font-family: "ITC Avant Garde Gothic Std";
+    font-family: "Poppins";
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -474,7 +591,7 @@ gap: 16px;
 .listtitle {
     color: #FFF;
 
-font-family: "ITC Avant Garde Gothic Std";
+font-family: "Poppins";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -491,7 +608,7 @@ gap: 12px;
 .subtext {
 
     color: #818181;
-    font-family: "ITC Avant Garde Gothic Std";
+    font-family: "Poppins";
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
